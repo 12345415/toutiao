@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E5D23C32805654F00C2E66F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D23C22805654F00C2E66F /* AppDelegate.m */; };
+		2E5D23C92805654F00C2E66F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D23C82805654F00C2E66F /* ViewController.m */; };
+		2E5D23CE2805655000C2E66F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D23CD2805655000C2E66F /* Assets.xcassets */; };
+		2E5D23D12805655000C2E66F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D23CF2805655000C2E66F /* LaunchScreen.storyboard */; };
+		2E5D23D42805655000C2E66F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D23D32805655000C2E66F /* main.m */; };
+		2E5D23E72805671B00C2E66F /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D23E62805671B00C2E66F /* MyTabBarController.m */; };
+		2E5D23EE28058B7400C2E66F /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D23ED28058B7400C2E66F /* OneViewController.m */; };
+		2E5D23F328058BC900C2E66F /* ListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D23F228058BC900C2E66F /* ListData.m */; };
+		2E5D23F728058C0300C2E66F /* RequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D23F628058C0300C2E66F /* RequestData.m */; };
+		2E5D23FD28058C4400C2E66F /* DeleteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D23FC28058C4400C2E66F /* DeleteTableViewCell.m */; };
+		2E5D240228058C7800C2E66F /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D240128058C7800C2E66F /* MyCollectionViewCell.m */; };
+		2E5D240628058CAB00C2E66F /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D240528058CAB00C2E66F /* MyTableViewCell.m */; };
+		2E5D240A28058CC400C2E66F /* SearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D240928058CC400C2E66F /* SearchBar.m */; };
+		2E5D240E28058CE600C2E66F /* TwoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D240D28058CE600C2E66F /* TwoCollectionViewCell.m */; };
+		2E75F789280842D8003735DC /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E75F788280842D8003735DC /* TwoViewController.m */; };
+		2E75F78E28084650003735DC /* VideoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E75F78D28084650003735DC /* VideoCollectionViewCell.m */; };
+		2E75F794280864AD003735DC /* VideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E75F793280864AD003735DC /* VideoPlayer.m */; };
+		2EEA451E28069DFF009EF566 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA451D28069DFF009EF566 /* TableViewCell.m */; };
+		2EEBB58A2806E86A00311C39 /* YYModelList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEBB5892806E86A00311C39 /* YYModelList.m */; };
+		5206906614A50B26FBF177B5 /* libPods-toutiao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3060BA2FC7088B6F92E9BB6 /* libPods-toutiao.a */; };
+		64A66A04280C506900CD193A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A66A03280C506900CD193A /* SystemConfiguration.framework */; };
+		64A66A06280C521C00CD193A /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A66A05280C521C00CD193A /* NotificationCenter.framework */; };
+		64E9FD19280B0A01006F3070 /* NewsContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E9FD18280B0A01006F3070 /* NewsContentView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E5D23BE2805654F00C2E66F /* toutiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toutiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5D23C12805654F00C2E66F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E5D23C22805654F00C2E66F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E5D23C72805654F00C2E66F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E5D23C82805654F00C2E66F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E5D23CD2805655000C2E66F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E5D23D02805655000C2E66F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E5D23D22805655000C2E66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E5D23D32805655000C2E66F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E5D23E52805671B00C2E66F /* MyTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		2E5D23E62805671B00C2E66F /* MyTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		2E5D23EC28058B7400C2E66F /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		2E5D23ED28058B7400C2E66F /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		2E5D23F128058BC900C2E66F /* ListData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListData.h; sourceTree = "<group>"; };
+		2E5D23F228058BC900C2E66F /* ListData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListData.m; sourceTree = "<group>"; };
+		2E5D23F528058C0300C2E66F /* RequestData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestData.h; sourceTree = "<group>"; };
+		2E5D23F628058C0300C2E66F /* RequestData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestData.m; sourceTree = "<group>"; };
+		2E5D23FB28058C4400C2E66F /* DeleteTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeleteTableViewCell.h; sourceTree = "<group>"; };
+		2E5D23FC28058C4400C2E66F /* DeleteTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeleteTableViewCell.m; sourceTree = "<group>"; };
+		2E5D240028058C7800C2E66F /* MyCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		2E5D240128058C7800C2E66F /* MyCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		2E5D240428058CAB00C2E66F /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		2E5D240528058CAB00C2E66F /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		2E5D240828058CC400C2E66F /* SearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchBar.h; sourceTree = "<group>"; };
+		2E5D240928058CC400C2E66F /* SearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchBar.m; sourceTree = "<group>"; };
+		2E5D240C28058CE600C2E66F /* TwoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoCollectionViewCell.h; sourceTree = "<group>"; };
+		2E5D240D28058CE600C2E66F /* TwoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoCollectionViewCell.m; sourceTree = "<group>"; };
+		2E75F787280842D8003735DC /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		2E75F788280842D8003735DC /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		2E75F78C28084650003735DC /* VideoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCollectionViewCell.h; sourceTree = "<group>"; };
+		2E75F78D28084650003735DC /* VideoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCollectionViewCell.m; sourceTree = "<group>"; };
+		2E75F792280864AD003735DC /* VideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayer.h; sourceTree = "<group>"; };
+		2E75F793280864AD003735DC /* VideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayer.m; sourceTree = "<group>"; };
+		2EEA451C28069DFF009EF566 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		2EEA451D28069DFF009EF566 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		2EEBB5882806E86A00311C39 /* YYModelList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYModelList.h; sourceTree = "<group>"; };
+		2EEBB5892806E86A00311C39 /* YYModelList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYModelList.m; sourceTree = "<group>"; };
+		315ACF3542BA55A258DA936B /* Pods-toutiao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toutiao.release.xcconfig"; path = "Target Support Files/Pods-toutiao/Pods-toutiao.release.xcconfig"; sourceTree = "<group>"; };
+		499CF923F0BF30216FAA2978 /* Pods-toutiao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toutiao.debug.xcconfig"; path = "Target Support Files/Pods-toutiao/Pods-toutiao.debug.xcconfig"; sourceTree = "<group>"; };
+		64A66A03280C506900CD193A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		64A66A05280C521C00CD193A /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		64E9FD17280B0A01006F3070 /* NewsContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsContentView.h; sourceTree = "<group>"; };
+		64E9FD18280B0A01006F3070 /* NewsContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsContentView.m; sourceTree = "<group>"; };
+		D3060BA2FC7088B6F92E9BB6 /* libPods-toutiao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-toutiao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E5D23BB2805654F00C2E66F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A66A06280C521C00CD193A /* NotificationCenter.framework in Frameworks */,
+				5206906614A50B26FBF177B5 /* libPods-toutiao.a in Frameworks */,
+				64A66A04280C506900CD193A /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E5D23B52805654F00C2E66F = {
+			isa = PBXGroup;
+			children = (
+				2E5D23C02805654F00C2E66F /* toutiao */,
+				2E5D23BF2805654F00C2E66F /* Products */,
+				3A220139A44D4F35F8C679FC /* Pods */,
+				E449E6AB1B71B41D0B7E8E0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E5D23BF2805654F00C2E66F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E5D23BE2805654F00C2E66F /* toutiao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E5D23C02805654F00C2E66F /* toutiao */ = {
+			isa = PBXGroup;
+			children = (
+				2E75F78B280845DE003735DC /* twoView */,
+				2E5D23FA28058C2700C2E66F /* View */,
+				2E5D23F028058B9100C2E66F /* Model */,
+				2E5D23DE280566C200C2E66F /* TabBarController */,
+				2E5D23C12805654F00C2E66F /* AppDelegate.h */,
+				2E5D23C22805654F00C2E66F /* AppDelegate.m */,
+				2E5D23C72805654F00C2E66F /* ViewController.h */,
+				2E5D23C82805654F00C2E66F /* ViewController.m */,
+				2E5D23CD2805655000C2E66F /* Assets.xcassets */,
+				2E5D23CF2805655000C2E66F /* LaunchScreen.storyboard */,
+				2E5D23D22805655000C2E66F /* Info.plist */,
+				2E5D23D32805655000C2E66F /* main.m */,
+			);
+			path = toutiao;
+			sourceTree = "<group>";
+		};
+		2E5D23DE280566C200C2E66F /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				2E5D23E52805671B00C2E66F /* MyTabBarController.h */,
+				2E5D23E62805671B00C2E66F /* MyTabBarController.m */,
+				2E5D23EC28058B7400C2E66F /* OneViewController.h */,
+				2E5D23ED28058B7400C2E66F /* OneViewController.m */,
+				2E75F787280842D8003735DC /* TwoViewController.h */,
+				2E75F788280842D8003735DC /* TwoViewController.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		2E5D23F028058B9100C2E66F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E5D23F128058BC900C2E66F /* ListData.h */,
+				2E5D23F228058BC900C2E66F /* ListData.m */,
+				2E5D23F528058C0300C2E66F /* RequestData.h */,
+				2E5D23F628058C0300C2E66F /* RequestData.m */,
+				2EEBB5882806E86A00311C39 /* YYModelList.h */,
+				2EEBB5892806E86A00311C39 /* YYModelList.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E5D23FA28058C2700C2E66F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E5D23FB28058C4400C2E66F /* DeleteTableViewCell.h */,
+				2E5D23FC28058C4400C2E66F /* DeleteTableViewCell.m */,
+				2E5D240028058C7800C2E66F /* MyCollectionViewCell.h */,
+				2E5D240128058C7800C2E66F /* MyCollectionViewCell.m */,
+				2E5D240428058CAB00C2E66F /* MyTableViewCell.h */,
+				2E5D240528058CAB00C2E66F /* MyTableViewCell.m */,
+				2E5D240828058CC400C2E66F /* SearchBar.h */,
+				2E5D240928058CC400C2E66F /* SearchBar.m */,
+				2E5D240C28058CE600C2E66F /* TwoCollectionViewCell.h */,
+				2E5D240D28058CE600C2E66F /* TwoCollectionViewCell.m */,
+				2EEA451C28069DFF009EF566 /* TableViewCell.h */,
+				2EEA451D28069DFF009EF566 /* TableViewCell.m */,
+				64E9FD17280B0A01006F3070 /* NewsContentView.h */,
+				64E9FD18280B0A01006F3070 /* NewsContentView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E75F78B280845DE003735DC /* twoView */ = {
+			isa = PBXGroup;
+			children = (
+				2E75F78C28084650003735DC /* VideoCollectionViewCell.h */,
+				2E75F78D28084650003735DC /* VideoCollectionViewCell.m */,
+				2E75F792280864AD003735DC /* VideoPlayer.h */,
+				2E75F793280864AD003735DC /* VideoPlayer.m */,
+			);
+			path = twoView;
+			sourceTree = "<group>";
+		};
+		3A220139A44D4F35F8C679FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				499CF923F0BF30216FAA2978 /* Pods-toutiao.debug.xcconfig */,
+				315ACF3542BA55A258DA936B /* Pods-toutiao.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E449E6AB1B71B41D0B7E8E0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64A66A05280C521C00CD193A /* NotificationCenter.framework */,
+				64A66A03280C506900CD193A /* SystemConfiguration.framework */,
+				D3060BA2FC7088B6F92E9BB6 /* libPods-toutiao.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E5D23BD2805654F00C2E66F /* toutiao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E5D23D72805655000C2E66F /* Build configuration list for PBXNativeTarget "toutiao" */;
+			buildPhases = (
+				4BA67E2E0FE9E38A7FCEBCEF /* [CP] Check Pods Manifest.lock */,
+				2E5D23BA2805654F00C2E66F /* Sources */,
+				2E5D23BB2805654F00C2E66F /* Frameworks */,
+				2E5D23BC2805654F00C2E66F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = toutiao;
+			productName = toutiao;
+			productReference = 2E5D23BE2805654F00C2E66F /* toutiao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E5D23B62805654F00C2E66F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					2E5D23BD2805654F00C2E66F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 2E5D23B92805654F00C2E66F /* Build configuration list for PBXProject "toutiao" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E5D23B52805654F00C2E66F;
+			productRefGroup = 2E5D23BF2805654F00C2E66F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E5D23BD2805654F00C2E66F /* toutiao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E5D23BC2805654F00C2E66F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5D23D12805655000C2E66F /* LaunchScreen.storyboard in Resources */,
+				2E5D23CE2805655000C2E66F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BA67E2E0FE9E38A7FCEBCEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-toutiao-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E5D23BA2805654F00C2E66F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5D23C92805654F00C2E66F /* ViewController.m in Sources */,
+				2E5D23F328058BC900C2E66F /* ListData.m in Sources */,
+				2E5D23EE28058B7400C2E66F /* OneViewController.m in Sources */,
+				2E75F78E28084650003735DC /* VideoCollectionViewCell.m in Sources */,
+				2E75F789280842D8003735DC /* TwoViewController.m in Sources */,
+				64E9FD19280B0A01006F3070 /* NewsContentView.m in Sources */,
+				2E5D23F728058C0300C2E66F /* RequestData.m in Sources */,
+				2E5D23E72805671B00C2E66F /* MyTabBarController.m in Sources */,
+				2E5D240A28058CC400C2E66F /* SearchBar.m in Sources */,
+				2EEA451E28069DFF009EF566 /* TableViewCell.m in Sources */,
+				2EEBB58A2806E86A00311C39 /* YYModelList.m in Sources */,
+				2E5D240228058C7800C2E66F /* MyCollectionViewCell.m in Sources */,
+				2E75F794280864AD003735DC /* VideoPlayer.m in Sources */,
+				2E5D23C32805654F00C2E66F /* AppDelegate.m in Sources */,
+				2E5D23FD28058C4400C2E66F /* DeleteTableViewCell.m in Sources */,
+				2E5D23D42805655000C2E66F /* main.m in Sources */,
+				2E5D240628058CAB00C2E66F /* MyTableViewCell.m in Sources */,
+				2E5D240E28058CE600C2E66F /* TwoCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E5D23CF2805655000C2E66F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E5D23D02805655000C2E66F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E5D23D52805655000C2E66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E5D23D62805655000C2E66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E5D23D82805655000C2E66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499CF923F0BF30216FAA2978 /* Pods-toutiao.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/toutiao/MyFramework",
+				);
+				INFOPLIST_FILE = toutiao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/toutiao/MyFramework/TencentOpenAPI.framework",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yn.toutiao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E5D23D92805655000C2E66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315ACF3542BA55A258DA936B /* Pods-toutiao.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/toutiao/MyFramework",
+				);
+				INFOPLIST_FILE = toutiao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/toutiao/MyFramework/TencentOpenAPI.framework",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yn.toutiao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E5D23B92805654F00C2E66F /* Build configuration list for PBXProject "toutiao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5D23D52805655000C2E66F /* Debug */,
+				2E5D23D62805655000C2E66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E5D23D72805655000C2E66F /* Build configuration list for PBXNativeTarget "toutiao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5D23D82805655000C2E66F /* Debug */,
+				2E5D23D92805655000C2E66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E5D23B62805654F00C2E66F /* Project object */;
+}
